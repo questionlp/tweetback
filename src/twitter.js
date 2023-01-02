@@ -284,8 +284,9 @@ class Twitter {
 	}
 
 	renderDate(d) {
-		let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-		return `${d.getFullYear()} ${months[d.getMonth()]} ${d.getDate()}`;
+		// let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+		//return `${d.getFullYear()} ${months[d.getMonth()]} ${d.getDate()}`;
+		return `${d.toUTCString()}`;
 	}
 
   renderPercentage(count, total) {

@@ -3,3 +3,8 @@ node_modules/
 _site
 .env
 package-lock.json
+database/tweet.db
+database/tweets.js
+database/twitter-circle-tweet.js
+img/
+.DS_Store
